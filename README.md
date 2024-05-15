@@ -11,7 +11,7 @@ POM File: The objects, locators and corresponding reusable methods are present u
 
 Utilities File: This package is placed under “src/test/java/Utils” and is created to separate the main driver class and configuration files and to make the code look more readable. The class file “Drivers.java” is used to initialize the browser driver.
 
-Test Runner File: The test runner file executes the Cucumber feature files and coordinates the steps defined in those feature files with the corresponding step definitions This Test Runner file is under location location "src/test/java/runner/"
+Test Runner File: The test runner file executes the Cucumber feature files and coordinates the steps defined in those feature files with the corresponding step definitions This Test Runner file is under location location "src/test/java/runner/". Ensure feature file path is appropriate before execution.
 
 Pre-requisites: Below software are required to be installed on a local machine:
 
