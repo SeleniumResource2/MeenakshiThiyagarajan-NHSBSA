@@ -31,4 +31,4 @@ Step 3: Right-click on the Project name --> Run As --> Junit Test
 Step 4: To run from command line ensure that below commands are provided:
 a. mvn clean ==> This command is used to clean the project by removing any files or directories generated during the build process. It's often used to ensure that the project is in a clean state before building or packaging it again
 b. mvn test ==>This command will trigger the Maven test phase, which will compile the project's source code, run the tests, and produce test reports.
-c. mvn test -Dtest=runner.TestRunner
+
