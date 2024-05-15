@@ -136,7 +136,7 @@ public class JobSearchPage extends Driver {
 			List<WebElement> jobs = ele;
 			for (int i = 0; i < 3; i++) {
 				String text = jobs.get(i).getText();
-				Assert.assertTrue("Search is not relevant to the preference", text.contains(value));
+				Assert.assertTrue(pr.getProperties("searchTxt"), text.contains(value));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
